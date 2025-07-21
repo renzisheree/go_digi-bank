@@ -1,0 +1,62 @@
+# Go build and dependency files
+/bin/
+/build/
+/dist/
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Dependency directories
+/vendor/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Database and migration artifacts
+*.db
+*.sqlite
+/db/migration/*.sql-journal
+
+# Generated code
+/sqlc/
+
+# Environment files
+.env
+.env.*
+
+# Coverage reports
+coverage.out
+*.coverprofile
+
+# Node/npm (if present)
+node_modules/
+
+# Python (if present)
+__pycache__/
+*.pyc
+
+# Docker
+*.pid
+
+# Misc
+*.tgz
+*.tar.gz
+*.zip
+*.gz
+*.rar
+*.7z
