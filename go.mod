@@ -1,6 +1,6 @@
 module tutorial.sqlc.dev/app
 
-go 1.23
+go 1.24.1
 
 require (
 	github.com/jackc/pgx/v5 v5.7.5
